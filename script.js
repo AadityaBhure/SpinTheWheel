@@ -46,7 +46,7 @@ printf("%c", ++*str);`,
 
 let index = 0;
 const total = questions.length;
-let timeLeft =  0.5 * 60; // 10 min in seconds
+let timeLeft =  10 * 60; // 10 min in seconds
 let timerInterval;
 
 const questionEl = document.getElementById("question");
@@ -137,3 +137,4 @@ submitBtn.addEventListener("click", () => {
 
 loadQuestion();
 startTimer();
+
