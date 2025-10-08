@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Quiz Round 2</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Game - Round 2</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
-    <h1>📘 ROUND 2 QUIZ</h1>
-    <div id="quiz-box">
-      <h2 id="question-title"></h2>
-      <p id="question-text"></p>
-      <input id="answer-input" placeholder="Type your answer">
-      <button id="submit-btn">Submit</button>
-      <p id="feedback"></p>
+  <div class="quiz-container">
+    <h1>💻 Quiz Round 2</h1>
+    <div id="question-box">
+      <p id="question"></p>
     </div>
+    <input type="text" id="answerInput" placeholder="Type your answer here..."/>
+    <button id="submitBtn">Submit</button>
+    <p id="feedback"></p>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
